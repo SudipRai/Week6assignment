@@ -18,6 +18,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Image url"
+        android:id="@+id/edtimage"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Address"
         android:id="@+id/edtaddress"/>
     <RadioGroup
