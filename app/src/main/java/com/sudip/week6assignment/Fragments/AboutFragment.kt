@@ -21,7 +21,9 @@ class AboutFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
+        val view= inflater.inflate(R.layout.fragment_about, container, false)
+        webview=view.findViewById(R.id.webview)
+        webview.loadUrl("https://softwarica.edu.np/")
         return view
     }
 
